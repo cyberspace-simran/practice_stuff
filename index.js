@@ -32,7 +32,7 @@ app.get('/check-password', (req, res) => {
   let password = req.query.password;
   res.send(checkPassword(password));
 });
-
+//hdhdhdh
 function calculateDiscountedPrice(price, discount) {
   let finalPrice = price - (price * discount) / 100;
   return finalPrice.toString();
